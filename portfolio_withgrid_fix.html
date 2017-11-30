@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Jess M Basic Portfolio</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/portfolio_style.css"> -->
+	<title>Portfolio</title>
 </head>
 
-<body>
+<body class="bgcolor">
 	<div class="menuBar"></div>
 
 	<!--- menu with About | Contact | Portfolio links -->
@@ -16,15 +17,30 @@
 	<!--- END of menu with About | Contact | Portfolio links -->
 
 
-	<div class="myName"><h1>Jess Marrano</h1>
-	</div>
-		
-	<div class="contentArea"></div> <!--- the ancestor for the absolutes below-->
-	<div class="mainSectionContent"> 
-		<h2>About Me </h2>
+	<div class="myName"><h1>Jess Marrano</h1></div>
+
+	<!--- Container for portfolio content -->
+	<div class="portfoliocontent"> 
+		<h2>Portfolio</h2>
 		<p class="center">__________________________________________________________________________</p>
-		<p><img class=wrap src="images/aerial_superman3.jpg" height="235" width="350">Jess Marrano discovered aerial dance four years ago in Athens, GA, and later continued training under various artists in Wilmington, NC and Georgia.  She has performed at dance socials for Wilmington Latin Dance, on the USS North Carolina Battleship for 2015, and now at the Rickhouse for the Mambo Dinamico’s 5th annual showcase. Jess loves to dance, perform, and share her knowledge and talents with other people.</p>
-	</div>
+				
+		<!-- Photo Grid -->
+		<div class="row"> <!-- one row to rule them all -->
+		  	<div class="column"> <!-- one column for each, holds all the photos -->
+		   	 	<img src="images/unc_aerial1.jpg" style="width:100%">
+		    	<img src="images/unc_aerial2.jpg" style="width:100%">
+		    	<img src="images/unc_aerial3.jpg" style="width:100%">
+		 	</div>
+		  	<div class="column">
+		    	<img src="images/unc_aerial4.jpg" style="width:100%">
+		    	<img src="images/unc_aerial5.jpg" style="width:100%">
+		    	<img src="images/unc_aerial6.jpg" style="width:100%">  	
+		  	</div>
+		</div>
+	  	<!-- END of Photo Grid --> <!-- the photo grid is INSIDE the portfoliocontent -->
+	</div> <!-- this div is the END of portfoliocontent -->
+
+		
 
 	<!-- CONNECT WITH ME sidebar -->
 	<div class="sidebar">
