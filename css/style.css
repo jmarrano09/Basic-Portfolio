@@ -93,7 +93,7 @@ a:active {
     text-decoration: none;
 }
 
-#title1 {position: absolute; left: 43px; top: 122px; 
+#title1 {position: absolute; left: 23px; top: 0px; 
 z-index: 13;
 text-align: middle;
 font-family: 'Georgia', Times, Times New Roman, serif;
@@ -104,7 +104,7 @@ height: 20px;
 vertical-align: middle;
 font-size: 14px;}
 
-#title2 {position: absolute; left: 347px; top: 122px;
+#title2 {position: absolute; left: 327px; top: 0px;
 z-index: 13;
 text-align: middle;
 font-family: 'Georgia', Times, Times New Roman, serif;
@@ -115,7 +115,7 @@ height: 20px;
 vertical-align: middle;
 font-size: 14px;}
 
-#title3 {position: absolute; left: 43px; top: 428px; 
+#title3 {position: absolute; left: 23px; top: 304px; 
 z-index: 13;
 text-align: middle;
 font-family: 'Georgia', Times, Times New Roman, serif;
@@ -126,7 +126,7 @@ height: 20px;
 vertical-align: middle;
 font-size: 14px;}
 
-#title4 {position: absolute; left: 347px; top: 428px; 
+#title4 {position: absolute; left: 327px; top: 304px; 
 z-index: 13;
 text-align: middle;
 font-family: 'Georgia', Times, Times New Roman, serif;
@@ -137,7 +137,7 @@ height: 20px;
 vertical-align: middle;
 font-size: 14px;}
 
-#title5 {position: absolute; left: 43px; top: 733px;
+#title5 {position: absolute; left: 23px; top: 607px;
 z-index: 13;
 text-align: middle;
 font-family: 'Georgia', Times, Times New Roman, serif;
@@ -148,7 +148,7 @@ height: 20px;
 vertical-align: middle;
 font-size: 14px;}
 
-#title6 {position: absolute; left: 347px; top: 733px; 
+#title6 {position: absolute; left: 327px; top: 607px; 
 z-index: 13;
 text-align: middle;
 font-family: 'Georgia', Times, Times New Roman, serif;
@@ -188,8 +188,15 @@ position: absolute; left: 80px; top: 100px;
 z-index: 4;
 background-color: #ffffff;
 padding: 20px;
-text-align: left;
+text-align: center;
 margin-right: 20px;
+}
+
+.titlecontainer {
+position: relative;
+z-index: 4;
+background-color: #ffffff;
+text-align: center;
 }
 
 .footer { position: fixed; left: 0px; bottom: 0px;
@@ -215,4 +222,6 @@ background-color: #ffffff;
 padding: 20px;
 border-width: .9px;
 }
+
+
 
